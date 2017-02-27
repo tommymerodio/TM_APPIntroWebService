@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		09AFCDA71E64B81900AD1343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFCDA61E64B81900AD1343 /* AppDelegate.swift */; };
-		09AFCDA91E64B81900AD1343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFCDA81E64B81900AD1343 /* ViewController.swift */; };
 		09AFCDAC1E64B81900AD1343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AFCDAA1E64B81900AD1343 /* Main.storyboard */; };
 		09AFCDAE1E64B81900AD1343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AFCDAD1E64B81900AD1343 /* Assets.xcassets */; };
 		09AFCDB11E64B81900AD1343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AFCDAF1E64B81900AD1343 /* LaunchScreen.storyboard */; };
+		09AFCDB91E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFCDB81E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift */; };
+		09AFCDBB1E64B96E00AD1343 /* TM_WSPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFCDBA1E64B96E00AD1343 /* TM_WSPostModel.swift */; };
+		09AFCDBD1E64BA8C00AD1343 /* APIUTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AFCDBC1E64BA8C00AD1343 /* APIUTILS.swift */; };
+		09AFCDBF1E64BFE400AD1343 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 09AFCDBE1E64BFE400AD1343 /* Podfile */; };
+		88FC1DC286825DBA8B145468 /* Pods_TM_APPIntroWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D16302F089F7EFE32AD9AC /* Pods_TM_APPIntroWebService.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09AFCDA31E64B81900AD1343 /* TM_APPIntroWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TM_APPIntroWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AFCDA61E64B81900AD1343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09AFCDA81E64B81900AD1343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09AFCDAB1E64B81900AD1343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09AFCDAD1E64B81900AD1343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09AFCDB01E64B81900AD1343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09AFCDB21E64B81900AD1343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AFCDB81E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_PrimerWebServiceTVCTableViewController.swift; sourceTree = "<group>"; };
+		09AFCDBA1E64B96E00AD1343 /* TM_WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_WSPostModel.swift; sourceTree = "<group>"; };
+		09AFCDBC1E64BA8C00AD1343 /* APIUTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
+		09AFCDBE1E64BFE400AD1343 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		64D16302F089F7EFE32AD9AC /* Pods_TM_APPIntroWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TM_APPIntroWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1386C742DD9E501BCB8197 /* Pods-TM_APPIntroWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_APPIntroWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService.release.xcconfig"; sourceTree = "<group>"; };
+		A6C391C4FDBD1BE4051BCAA4 /* Pods-TM_APPIntroWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_APPIntroWebService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FC1DC286825DBA8B145468 /* Pods_TM_APPIntroWebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +49,12 @@
 		09AFCD9A1E64B81900AD1343 = {
 			isa = PBXGroup;
 			children = (
+				09AFCDBE1E64BFE400AD1343 /* Podfile */,
+				09AFCDB81E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift */,
 				09AFCDA51E64B81900AD1343 /* TM_APPIntroWebService */,
 				09AFCDA41E64B81900AD1343 /* Products */,
+				9D27F05BE074173ACA213963 /* Pods */,
+				57E0AB5F5B0D972775A61D55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,31 @@
 			isa = PBXGroup;
 			children = (
 				09AFCDA61E64B81900AD1343 /* AppDelegate.swift */,
-				09AFCDA81E64B81900AD1343 /* ViewController.swift */,
+				09AFCDBA1E64B96E00AD1343 /* TM_WSPostModel.swift */,
+				09AFCDBC1E64BA8C00AD1343 /* APIUTILS.swift */,
 				09AFCDAA1E64B81900AD1343 /* Main.storyboard */,
 				09AFCDAD1E64B81900AD1343 /* Assets.xcassets */,
 				09AFCDAF1E64B81900AD1343 /* LaunchScreen.storyboard */,
 				09AFCDB21E64B81900AD1343 /* Info.plist */,
 			);
 			path = TM_APPIntroWebService;
+			sourceTree = "<group>";
+		};
+		57E0AB5F5B0D972775A61D55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D16302F089F7EFE32AD9AC /* Pods_TM_APPIntroWebService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D27F05BE074173ACA213963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C391C4FDBD1BE4051BCAA4 /* Pods-TM_APPIntroWebService.debug.xcconfig */,
+				8E1386C742DD9E501BCB8197 /* Pods-TM_APPIntroWebService.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09AFCDB51E64B81900AD1343 /* Build configuration list for PBXNativeTarget "TM_APPIntroWebService" */;
 			buildPhases = (
+				C289632A285CF27A4CD5A26C /* [CP] Check Pods Manifest.lock */,
 				09AFCD9F1E64B81900AD1343 /* Sources */,
 				09AFCDA01E64B81900AD1343 /* Frameworks */,
 				09AFCDA11E64B81900AD1343 /* Resources */,
+				B9B5AED0BA30AD37BAA9DBA0 /* [CP] Embed Pods Frameworks */,
+				B7AF4E24263C432C523DA4EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +161,70 @@
 			files = (
 				09AFCDB11E64B81900AD1343 /* LaunchScreen.storyboard in Resources */,
 				09AFCDAE1E64B81900AD1343 /* Assets.xcassets in Resources */,
+				09AFCDBF1E64BFE400AD1343 /* Podfile in Resources */,
 				09AFCDAC1E64B81900AD1343 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7AF4E24263C432C523DA4EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B5AED0BA30AD37BAA9DBA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C289632A285CF27A4CD5A26C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09AFCD9F1E64B81900AD1343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09AFCDA91E64B81900AD1343 /* ViewController.swift in Sources */,
+				09AFCDBD1E64BA8C00AD1343 /* APIUTILS.swift in Sources */,
+				09AFCDB91E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift in Sources */,
 				09AFCDA71E64B81900AD1343 /* AppDelegate.swift in Sources */,
+				09AFCDBB1E64B96E00AD1343 /* TM_WSPostModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +345,7 @@
 		};
 		09AFCDB61E64B81900AD1343 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C391C4FDBD1BE4051BCAA4 /* Pods-TM_APPIntroWebService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TM_APPIntroWebService/Info.plist;
@@ -270,6 +358,7 @@
 		};
 		09AFCDB71E64B81900AD1343 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1386C742DD9E501BCB8197 /* Pods-TM_APPIntroWebService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TM_APPIntroWebService/Info.plist;
