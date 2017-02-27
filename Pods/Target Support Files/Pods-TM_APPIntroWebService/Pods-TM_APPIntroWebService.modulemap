@@ -1,0 +1,6 @@
+framework module Pods_TM_APPIntroWebService {
+  umbrella header "Pods-TM_APPIntroWebService-umbrella.h"
+
+  export *
+  module * { export * }
+}

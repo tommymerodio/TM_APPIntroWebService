@@ -28,7 +28,7 @@
 		09AFCDB81E64B93A00AD1343 /* TM_PrimerWebServiceTVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_PrimerWebServiceTVCTableViewController.swift; sourceTree = "<group>"; };
 		09AFCDBA1E64B96E00AD1343 /* TM_WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_WSPostModel.swift; sourceTree = "<group>"; };
 		09AFCDBC1E64BA8C00AD1343 /* APIUTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
-		09AFCDBE1E64BFE400AD1343 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		09AFCDBE1E64BFE400AD1343 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64D16302F089F7EFE32AD9AC /* Pods_TM_APPIntroWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TM_APPIntroWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1386C742DD9E501BCB8197 /* Pods-TM_APPIntroWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_APPIntroWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService.release.xcconfig"; sourceTree = "<group>"; };
 		A6C391C4FDBD1BE4051BCAA4 /* Pods-TM_APPIntroWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TM_APPIntroWebService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TM_APPIntroWebService/Pods-TM_APPIntroWebService.debug.xcconfig"; sourceTree = "<group>"; };
@@ -388,6 +388,7 @@
 				09AFCDB71E64B81900AD1343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
